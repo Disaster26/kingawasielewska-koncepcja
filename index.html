@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fizjoterapia oddechowa i uroginekologiczna Łódź, kurs instruktora oddechu | Kinga Wasielewska</title>
+<meta name="description" content="Kinga Wasielewska - fizjoterapeutka uroginekologiczna i instruktorka oddechu. Gabinet w Łodzi, konsultacje online, kurs instruktora oddechu, hipnoporód, nagrania i programy oddechowe.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="img/ikona.png" type="image/png">
+<link rel="preload" href="fonts/lora-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-tel-900.webp" imagesrcset="img/hero-tel-600.webp 600w, img/hero-tel-900.webp 900w, img/hero-tel-1066.webp 1066w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1920.webp" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-2704.webp 2704w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<style>
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--bordo:#822219;--bordo-h:#9A2B20;--bordo-c:#4A120D;--kolo:#E8C4A6;--kolo-j:#F0D7C3;--ink:#1F1A19;--ink2:#564E4C;--szary:#F3F4F5;--linia:#E1E3E5;--head:72px;--pad:clamp(16px,4vw,56px);--max:1240px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--head)}
+body{margin:0;background:#fff;color:var(--ink);font:400 16.5px/1.7 Manrope,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:Lora,Georgia,serif;font-weight:500;line-height:1.15;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(30px,3.4vw,46px);color:var(--bordo)}
+h3{font-size:clamp(21px,1.8vw,25px)}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:52px;padding:0 28px;border-radius:4px;background:var(--bordo);color:#fff;font:700 16px/1 Manrope,Arial,sans-serif;text-decoration:none;border:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--bordo-h)}
+.btn.jasny{background:#fff;color:var(--bordo)}
+.btn.jasny:hover{background:var(--kolo-j)}
+.btn.obrys{background:transparent;color:var(--bordo);box-shadow:inset 0 0 0 1.5px var(--bordo)}
+.btn.obrys:hover{background:var(--bordo);color:#fff}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:var(--head);max-width:1400px}
+.logo img{height:60px;width:auto}
+.menu{display:flex;gap:30px;align-items:center}
+.menu a{text-decoration:none;font-weight:600;font-size:15.5px;color:var(--ink)}
+.menu a:not(.btn):hover{color:var(--bordo)}
+.menu .btn{min-height:44px;padding:0 20px;font-size:15px;color:#fff}
+.burger{display:none;width:46px;height:46px;border:0;background:none;padding:11px;cursor:pointer}
+.burger span{display:block;height:2px;background:var(--bordo);margin:6px 0;transition:.25s}
+@media (max-width:980px){
+ :root{--head:62px}
+ .logo img{height:46px}
+ .burger{display:block}
+ .menu{position:fixed;inset:var(--head) 0 auto 0;flex-direction:column;align-items:stretch;gap:0;background:#fff;padding:8px var(--pad) 24px;border-bottom:1px solid var(--linia);box-shadow:0 18px 30px rgba(0,0,0,.08);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.25s}
+ .menu a:not(.btn){padding:15px 0;border-bottom:1px solid var(--linia);font-size:17px}
+ .menu .btn{margin-top:18px;min-height:52px}
+ .top.otwarte .menu{transform:none;opacity:1;visibility:visible}
+ .top.otwarte .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+ .top.otwarte .burger span:nth-child(2){opacity:0}
+ .top.otwarte .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+}
+
+/* pierwszy ekran */
+.hero{padding:0;position:relative;min-height:calc(100svh - var(--head));display:flex;align-items:center;color:#fff;background:#21180F;overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:30% 50%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,12,8,0) 30%,rgba(20,12,8,.55) 60%,rgba(20,12,8,.72) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;max-width:1400px;display:flex;justify-content:flex-end}
+.hero-txt{max-width:560px;padding:56px 0}
+.hero h1{font-size:clamp(40px,4.6vw,68px);font-weight:500;margin-bottom:22px}
+.hero h1 small{display:block;font:600 clamp(15px,1.2vw,17px)/1.45 Manrope,Arial,sans-serif;letter-spacing:0;color:var(--kolo-j);margin-bottom:18px}
+.hero .lead{font-size:clamp(17px,1.35vw,19px);line-height:1.6;color:rgba(255,255,255,.9);margin-bottom:30px;max-width:30em}
+.hero .gdzie{margin:26px 0 0;font-size:14.5px;color:rgba(255,255,255,.78)}
+.hero .gdzie b{color:#fff;font-weight:600}
+@media (max-width:760px){
+ .hero{align-items:flex-end;min-height:calc(100svh - var(--head))}
+ .hero picture img{object-position:50% 30%}
+ .hero::after{background:linear-gradient(180deg,rgba(20,12,8,0) 25%,rgba(20,12,8,.62) 55%,rgba(20,12,8,.88) 100%)}
+ .hero-txt{padding:24px 0 22px}
+ .hero h1{font-size:clamp(31px,8.6vw,40px);margin-bottom:14px}
+ .hero h1 small{font-size:13.5px;margin-bottom:8px}
+ .hero .lead{font-size:15.5px;line-height:1.55;margin-bottom:24px}
+ .hero .btn{width:100%}
+ .hero .gdzie{margin-top:14px;font-size:13.5px}
+}
+@media (max-width:760px) and (max-height:680px){.hero .gdzie{display:none}}
+@media (min-width:2000px){.hero h1{font-size:84px}.hero-txt{max-width:720px}.hero .lead{font-size:21px}.hero h1 small{font-size:19px}}
+@media (min-width:761px) and (max-height:860px){.hero h1{font-size:clamp(40px,4vw,56px)}.hero-txt{padding:36px 0}.hero h1 small{margin-bottom:12px}}
+
+/* motyw: krag oddechu */
+.krag{display:flex;align-items:center;gap:16px;margin:0 0 18px;color:var(--kolo)}
+.krag::before{content:"";width:13px;height:13px;border:1.5px solid currentColor;border-radius:50%;flex:none}
+.krag::after{content:"";height:1px;background:currentColor;flex:1;max-width:120px}
+.lista{list-style:none;margin:0 0 1.2em;padding:0}
+.lista li{position:relative;padding-left:26px;margin:0 0 8px}
+.lista li::before{content:"";position:absolute;left:0;top:.55em;width:10px;height:10px;border:1.5px solid var(--bordo);border-radius:50%}
+
+section{padding:clamp(64px,8vw,112px) 0;overflow:hidden}
+html,body{overflow-x:clip}
+.szary{background:var(--szary)}
+.wstep{max-width:680px;margin-bottom:clamp(36px,4vw,56px)}
+.wstep p{color:var(--ink2);font-size:17.5px;margin-top:14px}
+
+/* kurs instruktora */
+.kurs{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(32px,6vw,96px);align-items:center}
+.luk{border-radius:999px 999px 6px 6px;overflow:hidden;position:relative}
+.luk img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%}
+.kurs-txt h2{margin-bottom:18px}
+.kurs-txt .dla{font-weight:700;color:var(--bordo);margin-bottom:10px}
+.kurs-txt .btn{margin-top:10px}
+
+/* oferta */
+.grupa{margin-top:clamp(52px,6vw,80px)}
+.grupa-tyt{display:flex;align-items:center;gap:18px;margin-bottom:28px}
+.grupa-tyt h3{font-size:clamp(25px,2.4vw,32px);color:var(--ink);white-space:nowrap}
+.grupa-tyt span{font-weight:600;color:var(--ink2);font-size:15px}
+.grupa-tyt::after{content:"";height:1px;background:var(--linia);flex:1}
+.oferty{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;background:var(--linia);border:1px solid var(--linia);border-radius:6px;overflow:hidden}
+.oferty.trzy{grid-template-columns:repeat(3,minmax(0,1fr))}
+.oferta{background:#fff;padding:clamp(26px,3vw,40px);display:flex;flex-direction:column}
+.oferta h4{font:500 23px/1.25 Lora,Georgia,serif;margin:0 0 12px;color:var(--bordo)}
+.oferta p{color:var(--ink2)}
+.oferta .lista{color:var(--ink2);font-size:15.5px}
+.oferta .dol{margin-top:auto;padding-top:14px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.cena{font:500 28px/1 Lora,Georgia,serif;color:var(--ink)}
+.cena small{font:600 14px Manrope,Arial,sans-serif;color:var(--ink2);margin-left:4px}
+.oferta .btn{min-height:48px;padding:0 22px;font-size:15px}
+
+/* test oddechu */
+.ciemna{background:var(--bordo-c);color:#fff}
+.ciemna h2{color:#fff}
+.test{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(32px,5vw,80px);align-items:center}
+.film{position:relative;display:block;border-radius:6px;overflow:hidden}
+.film img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.film .graj{position:absolute;right:18px;bottom:18px;display:flex;align-items:center;gap:10px;background:#fff;color:var(--bordo);font-weight:700;font-size:15px;padding:12px 18px 12px 14px;border-radius:4px}
+.film .graj::before{content:"";width:0;height:0;border-left:12px solid var(--bordo);border-top:8px solid transparent;border-bottom:8px solid transparent}
+.test p{color:rgba(255,255,255,.85);font-size:17.5px;margin:18px 0 28px}
+
+/* o mnie */
+.omnie{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(36px,6vw,100px);align-items:start}
+.portret{position:relative;max-width:440px;margin:0 auto;width:100%}
+.portret::before{content:"";position:absolute;width:118%;aspect-ratio:1;left:-9%;top:6%;border:1.5px solid var(--kolo);border-radius:50%;z-index:0}
+.portret img{position:relative;z-index:1;width:100%;aspect-ratio:3/4.6;object-fit:cover;object-position:50% 20%;border-radius:999px 999px 6px 6px}
+.omnie-txt h2{margin-bottom:6px}
+.omnie-txt .kto{font-weight:700;color:var(--ink);margin-bottom:22px;font-size:17px}
+.omnie-txt p{color:var(--ink2)}
+.cytat{font:500 clamp(21px,2vw,26px)/1.4 Lora,Georgia,serif;color:var(--bordo);margin:28px 0;padding-left:22px;border-left:2px solid var(--kolo)}
+.kwal{margin-top:30px}
+.kwal h3{font-size:22px;margin-bottom:14px}
+
+/* opinie */
+.opinie-pas{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px var(--pad) 24px;margin:0 calc(-1*var(--pad));scrollbar-width:none;cursor:grab}
+.opinie-pas::-webkit-scrollbar{display:none}
+.opinie-pas.ciagnie{cursor:grabbing;scroll-snap-type:none}
+.opinia{flex:0 0 min(420px,84vw);scroll-snap-align:start;background:#fff;border-radius:6px;padding:30px 30px 26px;display:flex;flex-direction:column;border-top:3px solid var(--bordo)}
+.opinia p{font-size:16.5px;color:var(--ink);margin-bottom:18px}
+.opinia .podpis{margin-top:auto;font-weight:700;color:var(--bordo);font-size:15px}
+.strzalki{display:flex;gap:10px;justify-content:flex-end;margin-top:6px}
+.strzalki button{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--bordo);background:#fff;color:var(--bordo);font-size:20px;cursor:pointer}
+.strzalki button:hover{background:var(--bordo);color:#fff}
+.opinie-gl{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:34px}
+.opinie-gl .wstep{margin:0}
+
+/* pomoc */
+.pomoc{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:clamp(32px,5vw,80px)}
+details{border-bottom:1px solid var(--linia)}
+details:first-of-type{border-top:1px solid var(--linia)}
+summary{list-style:none;cursor:pointer;padding:20px 40px 20px 0;font-weight:700;font-size:17px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";position:absolute;right:4px;top:50%;width:16px;height:16px;margin-top:-8px;border:1.5px solid var(--bordo);border-radius:50%;background:linear-gradient(var(--bordo),var(--bordo)) center/8px 1.5px no-repeat,linear-gradient(var(--bordo),var(--bordo)) center/1.5px 8px no-repeat}
+details[open] summary::after{background:linear-gradient(var(--bordo),var(--bordo)) center/8px 1.5px no-repeat}
+details p{color:var(--ink2);padding-right:40px}
+
+/* newsletter */
+.news{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:center}
+.news .luk{max-width:380px;margin:0 auto;width:100%}
+@media (max-width:760px){.news .luk{max-width:300px}}
+.news .luk img{aspect-ratio:auto}
+.news form{display:flex;gap:10px;margin-top:24px;max-width:520px}
+input,textarea{font:inherit;font-size:16px;width:100%;padding:14px 16px;border:1.5px solid #CFD3D6;border-radius:4px;background:#fff;color:var(--ink)}
+input:focus,textarea:focus{outline:none;border-color:var(--bordo)}
+.news .drobne{font-size:13.5px;color:var(--ink2);margin-top:12px}
+
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px)}
+.kanaly{list-style:none;padding:0;margin:28px 0 0}
+.kanaly li{padding:18px 0;border-top:1px solid var(--linia)}
+.kanaly li:last-child{border-bottom:1px solid var(--linia)}
+.kanaly span{display:block;font-size:14px;color:var(--ink2);font-weight:600}
+.kanaly a{font-weight:700;font-size:18px;text-decoration:none;color:var(--bordo)}
+.kanaly a:hover{text-decoration:underline}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:14px;background:#fff;padding:clamp(24px,3vw,40px);border-radius:6px;border:1px solid var(--linia)}
+.form .cala{grid-column:1/-1}
+.form label{font-size:14px;font-weight:700;display:block;margin-bottom:6px}
+.form textarea{min-height:140px;resize:vertical}
+.form .btn{justify-self:start}
+.form .drobne{font-size:13px;color:var(--ink2);margin:0}
+
+/* stopka */
+.stopka{background:var(--bordo-c);color:rgba(255,255,255,.82);padding:56px 0 28px;font-size:15px}
+.stopka-g{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}
+.stopka img{height:64px;width:auto;margin-bottom:16px}
+.stopka h4{font:700 14px Manrope,Arial,sans-serif;color:#fff;margin:6px 0 12px}
+.stopka ul{list-style:none;padding:0;margin:0}
+.stopka li{margin:0 0 8px}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff;text-decoration:underline}
+.stopka-d{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.16);margin-top:40px;padding-top:22px;font-size:14px}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+
+
+@media (max-width:980px){
+ .kurs,.test,.omnie,.pomoc,.news,.kontakt{grid-template-columns:1fr}
+ .oferty.trzy{grid-template-columns:1fr}
+ .luk{max-width:520px}
+ .portret{max-width:360px}
+ .opinie-gl{flex-direction:column;align-items:flex-start}
+ .strzalki{display:none}
+}
+@media (max-width:760px){
+ .oferty{grid-template-columns:1fr}
+ .grupa-tyt{flex-wrap:wrap;gap:4px 14px}
+ .grupa-tyt::after{display:none}
+ .news form{flex-direction:column}
+ .form{grid-template-columns:1fr}
+ .stopka-g{grid-template-columns:1fr 1fr;gap:28px}
+ .stopka-g>div:first-child{grid-column:1/-1}
+ .film .graj{right:12px;bottom:12px;font-size:14px;padding:10px 14px 10px 12px}
+}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="logo" href="#top" aria-label="Kinga Wasielewska - strona główna"><img src="img/logo-240.webp" srcset="img/logo-240.webp 240w, img/logo-480.webp 480w" sizes="120px" width="240" height="127" alt="Kinga Wasielewska"></a>
+  <nav class="menu" id="menu" aria-label="Menu">
+   <a href="#oferta">Oferta</a>
+   <a href="#gabinet">Gabinet w Łodzi</a>
+   <a href="#online">Online</a>
+   <a href="#o-mnie">O mnie</a>
+   <a href="#opinie">Opinie</a>
+   <a class="btn" href="#kontakt">Kontakt</a>
+  </nav>
+  <button class="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" aria-label="Kinga Wasielewska">
+ <picture>
+  <source media="(max-width:760px)" srcset="img/hero-tel-600.webp 600w, img/hero-tel-900.webp 900w, img/hero-tel-1066.webp 1066w" sizes="100vw">
+  <img src="img/hero-1920.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-2704.webp 2704w" sizes="100vw" width="2704" height="1904" alt="Kinga Wasielewska podczas ćwiczenia oddechowego w jesiennym lesie" fetchpriority="high">
+ </picture>
+ <div class="wrap">
+  <div class="hero-txt">
+   <h1><small>Fizjoterapia oddechowa i uroginekologiczna w Łodzi i online</small>Przypomnij sobie, że oddychasz</h1>
+   <p class="lead">Oddech jest z Tobą w każdej sekundzie. Pomogę Ci zbudować z nim dobrą relację: w gabinecie, online i na kursie.</p>
+   <a class="btn jasny" href="#oferta">Poznaj ofertę</a>
+   <p class="gdzie"><b>Kinga Wasielewska</b> &middot; fizjoterapeutka, instruktorka oddechu i hipnoporodu</p>
+  </div>
+ </div>
+</section>
+
+<section id="oferta" class="szary">
+ <div class="wrap">
+  <div class="kurs">
+   <div class="luk"><img src="img/kurs-1100.webp" srcset="img/kurs-700.webp 700w, img/kurs-1100.webp 1100w, img/kurs-1500.webp 1500w" sizes="(max-width:980px) 92vw, 500px" width="1100" height="1340" alt="Kinga Wasielewska w lesie" loading="lazy"></div>
+   <div class="kurs-txt">
+    <div class="krag" aria-hidden="true"></div>
+    <h2>Zostań certyfikowanym instruktorem oddechu</h2>
+    <p class="dla">Kurs hybrydowy: część online i spotkania na żywo</p>
+    <p>Uczysz się bezpośrednio ode mnie i zostajesz certyfikowanym instruktorem oddechu. Przekazuję Ci to, czego sama nauczyłam się u nauczycieli w Polsce i na świecie, i to, co sprawdziło się w pracy z ponad 1600 osobami w moich programach oddechowych.</p>
+    <ul class="lista">
+     <li>forma hybrydowa: online i na żywo</li>
+     <li>prowadzi instruktorka oddechu Buteyko Clinic International i UK Hypopressives</li>
+     <li>certyfikat instruktora oddechu po ukończeniu kursu</li>
+    </ul>
+    <a class="btn" href="#kontakt">Poznaj szczegóły kursu</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="gabinet">
+ <div class="wrap">
+  <div class="wstep">
+   <h2>Jak możemy pracować</h2>
+   <p>Na żywo w Łodzi albo online, z każdego miejsca. Wybierz formę, która pasuje do Twojego celu i rytmu dnia.</p>
+  </div>
+
+  <div class="grupa" style="margin-top:0">
+   <div class="grupa-tyt"><h3>Na żywo</h3><span>gabinet w Łodzi</span></div>
+   <div class="oferty">
+    <article class="oferta">
+     <h4>Wizyta w gabinecie</h4>
+     <p>Fizjoterapia uroginekologiczna i oddechowa, praca z oddechem somatycznym, hipopresja oraz zabiegi Indiba. Termin wybierasz sama w kalendarzu online.</p>
+     <ul class="lista">
+      <li>kobiety w ciąży i po porodzie</li>
+      <li>okres menopauzy, dno miednicy, napięcia</li>
+      <li>reedukacja oddechu przy astmie i stresie</li>
+     </ul>
+     <div class="dol"><span></span><a class="btn" href="#kontakt">Umów wizytę</a></div>
+    </article>
+    <article class="oferta">
+     <h4>Kurs hipnoporodu dla kobiet w ciąży</h4>
+     <p>Stacjonarny kurs technik hipnoporodu. Poznasz fizjologię porodu i pracę macicy, nauczysz się technik oddechowych i relaksacyjnych oraz samodzielnego regulowania układu nerwowego. Przygotujesz się do świadomego porodu.</p>
+     <ul class="lista">
+      <li>prowadzi certyfikowana instruktorka HypnoBirthing Institute</li>
+     </ul>
+     <div class="dol"><span></span><a class="btn obrys" href="#kontakt">Zapytaj o termin</a></div>
+    </article>
+   </div>
+  </div>
+
+  <div class="grupa" id="online">
+   <div class="grupa-tyt"><h3>Online</h3><span>z dowolnego miejsca</span></div>
+   <div class="oferty trzy">
+    <article class="oferta">
+     <h4>Konsultacje indywidualne 1:1</h4>
+     <p>Spotykamy się online i układamy plan dojścia do Twojego celu.</p>
+     <ul class="lista">
+      <li>reedukacja oddechowa</li>
+      <li>zdrowie: astma, nadciśnienie, nieżyt nosa</li>
+      <li>redukcja stresu i zarządzanie nim</li>
+      <li>wydolność w sporcie</li>
+      <li>koncentracja i uważność</li>
+      <li>świadomość ciała i emocji, medytacja</li>
+     </ul>
+     <div class="dol"><span></span><a class="btn obrys" href="#kontakt">Zapytaj o konsultację</a></div>
+    </article>
+    <article class="oferta">
+     <h4>Pakiet 12 nagrań mp3</h4>
+     <p>Dwanaście najważniejszych sesji oddechowych i medytacyjnych. Pobierasz je i słuchasz zawsze, kiedy potrzebujesz chwili na oddech.</p>
+     <div class="dol"><span class="cena">89 zł</span><a class="btn" href="#kontakt">Kupuję</a></div>
+    </article>
+    <article class="oferta">
+     <h4>Program 21 dni „Ku spokoju i harmonii”</h4>
+     <p>Kurs wideo, ponad 20 nagrań mp3 i bonusy. Przez trzy tygodnie poznajesz swój oddech i budujesz fundamenty spokoju.</p>
+     <div class="dol"><span class="cena">197 zł</span><a class="btn" href="#kontakt">Kupuję</a></div>
+    </article>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="ciemna" id="test">
+ <div class="wrap test">
+  <a class="film" href="https://youtu.be/1KtQYCnwq7A" target="_blank" rel="noopener" aria-label="Obejrzyj nagranie: Czy Twój oddech wymaga reedukacji?">
+   <img src="img/test-1400.webp" srcset="img/test-800.webp 800w, img/test-1400.webp 1400w" sizes="(max-width:980px) 92vw, 700px" width="1400" height="781" alt="Kadr z nagrania o reedukacji oddechu" loading="lazy">
+   <span class="graj">Obejrzyj nagranie</span>
+  </a>
+  <div>
+   <div class="krag" aria-hidden="true"></div>
+   <h2>Sprawdź, czy masz zdrowy oddech</h2>
+   <p>Skorzystaj z nagrania i sprawdź, czy Twój oddech potrzebuje reedukacji. Wynik podpowie, od czego zacząć.</p>
+   <a class="btn jasny" href="https://youtu.be/1KtQYCnwq7A" target="_blank" rel="noopener">Sprawdzam</a>
+  </div>
+ </div>
+</section>
+
+<section id="o-mnie">
+ <div class="wrap omnie">
+  <div class="portret"><img src="img/kinga-1004.webp" srcset="img/kinga-600.webp 600w, img/kinga-1004.webp 1004w" sizes="(max-width:980px) 360px, 440px" width="1004" height="2296" alt="Kinga Wasielewska" loading="lazy"></div>
+  <div class="omnie-txt">
+   <h2>Nazywam się Kinga Wasielewska</h2>
+   <p class="kto">Fizjoterapeutka uroginekologiczna (PTUG), instruktorka oddechu funkcjonalnego i psychosomatycznego, instruktorka hipnoporodu i naturopatka.</p>
+   <p>Od oddechu zaczęło się moje zdrowie: zredukowałam objawy astmy do zera i nauczyłam się zarządzać stresem tak, żeby wspierał moje życie, zamiast je sabotować. Dziś uczę tego innych. Z moich programów oddechowych skorzystało już ponad 1600 osób, przeprowadziłam ponad 250 sesji indywidualnych, a na warsztaty stacjonarne przyjeżdżają osoby z Polski i z zagranicy.</p>
+   <p>Pracuję z kobietami w ciąży i po porodzie, ze sportowcami, z osobami w przewlekłym stresie, z kobietami w okresie menopauzy i z dziećmi.</p>
+   <p class="cytat">Od świadomego oddechu do spokoju. Od spokoju do świadomości ciała. Od świadomości ciała do zrozumienia siebie.</p>
+   <div class="kwal">
+    <h3>Kwalifikacje</h3>
+    <ul class="lista">
+     <li>magister fizjoterapii, Uniwersytet Medyczny w Łodzi</li>
+     <li>cykl szkoleniowy z fizjoterapii uroginekologicznej akredytowany przez PTUG</li>
+     <li>certyfikowana instruktorka oddechu Buteyko Clinic International i UK Hypopressives, szkolenie „Oddech w psychosomatyce”</li>
+     <li>„Ekspert od Aktywności Kobiet w Ciąży i po Porodzie” (Femiplace)</li>
+     <li>naturopatka, szkoła ITCM DAO w Krakowie</li>
+     <li>instruktorka hipnoporodu HypnoBirthing Institute</li>
+    </ul>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="szary" id="opinie">
+ <div class="wrap">
+  <div class="opinie-gl">
+   <div class="wstep"><h2>Co piszą osoby, z którymi pracuję</h2></div>
+   <div class="strzalki"><button type="button" data-k="-1" aria-label="Poprzednia opinia">&larr;</button><button type="button" data-k="1" aria-label="Następna opinia">&rarr;</button></div>
+  </div>
+  <div class="opinie-pas" id="opinie-pas">
+   <figure class="opinia"><p>Polecam, Kinga to gejzer spokoju, harmonii i świetlistej energii, którą obdarza, dodając do każdego ćwiczenia z oddechem.</p><figcaption class="podpis">Bożena</figcaption></figure>
+   <figure class="opinia"><p>Jak mi tego było potrzeba! Kończę dopiero pierwszy, wstępny etap zajęć oddechowych, więc nie spodziewałam się aż tylu korzyści. Nauczyłam się oddychać prawidłowo i wydłużyłam swój oddech.</p><figcaption class="podpis">uczestniczka zajęć oddechowych</figcaption></figure>
+   <figure class="opinia"><p>Po każdych zajęciach z Kingą towarzyszyło mi poczucie spokoju i dotlenienia. Kinga zawsze cierpliwie słuchała i dawała odpowiedzi na wszystkie postawione pytania.</p><figcaption class="podpis">uczestniczka zajęć</figcaption></figure>
+   <figure class="opinia"><p>Moja głowa jakby spowolniła i zamiast pędzącej autostrady przez moją głowę przepływa spokojny strumyk myśli. Duży komfort daje mi to, że mam w zasięgu ręki już przetestowane sposoby.</p><figcaption class="podpis">uczestniczka programu</figcaption></figure>
+   <figure class="opinia"><p>Śpię dobrze, mam coraz więcej siły i chęci do działania, nie wkurzam się tak łatwo na dzieci. Zmiany najlepiej zacząć od siebie, a mi powrót do spokoju zrobił bardzo dobrze!</p><figcaption class="podpis">uczestniczka sesji indywidualnych</figcaption></figure>
+  </div>
+ </div>
+</section>
+
+<section id="pomoc">
+ <div class="wrap pomoc">
+  <div>
+   <h2>Kupiłaś kurs lub nagrania?</h2>
+   <p style="color:var(--ink2);margin-top:14px">Najczęstsze pytania o dostęp do platformy szkoleniowej. Jeśli nie znajdziesz tu odpowiedzi, napisz do mnie.</p>
+  </div>
+  <div>
+   <details open><summary>Nie dostałam produktu. Jak go odebrać?</summary><p>Przy szybkich płatnościach (karta, BLIK, przelew online) dostęp przychodzi zwykle w ciągu 15 minut, przy zwykłym przelewie do 5 dni. Sprawdź też foldery Spam, Oferty i Wszystkie: e-mail ma tytuł „Twoje dane logowania do Platformy Szkoleniowej”. Nadal nic? Napisz, podając imię i adres e-mail z zamówienia.</p></details>
+   <details><summary>Dane do platformy nie działają</summary><p>Przepisz login i hasło ręcznie, bez kopiowania. Zwykle to pomaga. Jeśli nie, napisz do mnie.</p></details>
+   <details><summary>Nie widzę hasła w e-mailu</summary><p>Jeśli już kupowałaś u mnie, system nie wygeneruje hasła drugi raz. Zaloguj się na platformę i otwórz „Moje konto”, a potem „Moje kursy”. Kurs jest zablokowany? Daj znać.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="szary" id="newsletter">
+ <div class="wrap news">
+  <div class="luk"><img src="img/luk-904.webp" srcset="img/luk-500.webp 500w, img/luk-904.webp 904w" sizes="380px" width="904" height="1097" alt="Kinga Wasielewska w lesie" loading="lazy"></div>
+  <div>
+   <div class="krag" aria-hidden="true"></div>
+   <h2>Zaproś oddech do swojego życia</h2>
+   <p style="color:var(--ink2);font-size:17.5px;margin-top:14px">Zapisz się na newsletter. Raz na jakiś czas wyślę Ci materiały edukacyjne i informacje o kursach, webinarach i nowych nagraniach.</p>
+   <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Dziękuję!'">
+    <label class="sr" for="n-mail" style="position:absolute;left:-9999px">Adres e-mail</label>
+    <input id="n-mail" type="email" placeholder="Twój adres e-mail" required>
+    <button class="btn" type="submit">Zapisuję się</button>
+   </form>
+   <p class="drobne">Możesz wypisać się jednym kliknięciem w każdej wiadomości.</p>
+  </div>
+ </div>
+</section>
+
+<section id="kontakt">
+ <div class="wrap kontakt">
+  <div>
+   <h2>Masz pytanie?</h2>
+   <p style="color:var(--ink2);font-size:17.5px;margin-top:14px">Napisz, z czym przychodzisz. Odpowiem i podpowiem, od której formy pracy najlepiej zacząć.</p>
+   <ul class="kanaly">
+    <li><span>E-mail</span><a href="mailto:kontakt@kingawasielewska.pl">kontakt@kingawasielewska.pl</a></li>
+    <li><span>Gabinet w Łodzi</span><a href="#kontakt">Wybierz termin w kalendarzu online</a></li>
+    <li><span>Facebook i Instagram</span><a href="https://www.facebook.com/tofizjoterapia" target="_blank" rel="noopener">facebook.com/tofizjoterapia</a><br><a href="https://www.instagram.com/kinga_wasielewska/" target="_blank" rel="noopener">@kinga_wasielewska</a></li>
+   </ul>
+  </div>
+  <form class="form" onsubmit="event.preventDefault();this.querySelector('.btn').textContent='Dziękuję za wiadomość!'">
+   <div><label for="f-imie">Imię</label><input id="f-imie" autocomplete="given-name"></div>
+   <div><label for="f-tel">Telefon</label><input id="f-tel" type="tel" autocomplete="tel"></div>
+   <div class="cala"><label for="f-mail">E-mail</label><input id="f-mail" type="email" autocomplete="email" required></div>
+   <div class="cala"><label for="f-wiad">Wiadomość</label><textarea id="f-wiad" placeholder="Np. interesuje mnie konsultacja online w sprawie oddechu przy astmie"></textarea></div>
+   <p class="drobne cala">Wysyłając wiadomość, akceptujesz politykę prywatności.</p>
+   <button class="btn cala" type="submit">Wyślij wiadomość</button>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="wrap">
+  <div class="stopka-g">
+   <div>
+    <img src="img/logo-biale-480.webp" width="480" height="253" alt="Kinga Wasielewska" loading="lazy">
+    <p style="max-width:30em">Fizjoterapia oddechowa i uroginekologiczna, kursy i programy oddechowe. Gabinet w Łodzi i spotkania online.</p>
+   </div>
+   <div>
+    <h4>Oferta</h4>
+    <ul><li><a href="#oferta">Kurs instruktora oddechu</a></li><li><a href="#gabinet">Gabinet w Łodzi</a></li><li><a href="#online">Konsultacje i programy online</a></li><li><a href="#test">Test oddechu</a></li></ul>
+   </div>
+   <div>
+    <h4>Informacje</h4>
+    <ul><li><a href="#o-mnie">O mnie</a></li><li><a href="#pomoc">Pomoc z dostępem</a></li><li><a href="#kontakt">Regulaminy</a></li><li><a href="#kontakt">Polityka prywatności</a></li></ul>
+   </div>
+  </div>
+  <div class="stopka-d">
+   <span>&copy; 2026 Kinga Wasielewska</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=kingawasielewska.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+
+  </div>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var top=document.getElementById('top'),b=top.querySelector('.burger');
+ b.addEventListener('click',function(){var o=top.classList.toggle('otwarte');b.setAttribute('aria-expanded',o);b.setAttribute('aria-label',o?'Zamknij menu':'Otwórz menu')});
+ top.querySelectorAll('.menu a').forEach(function(a){a.addEventListener('click',function(){top.classList.remove('otwarte');b.setAttribute('aria-expanded','false')})});
+ var p=document.getElementById('opinie-pas');
+ document.querySelectorAll('.strzalki button').forEach(function(x){x.addEventListener('click',function(){var k=p.querySelector('.opinia');p.scrollBy({left:(k.offsetWidth+20)*+x.dataset.k,behavior:'smooth'})})});
+ var d=false,sx=0,sl=0;
+ p.addEventListener('mousedown',function(e){d=true;sx=e.pageX;sl=p.scrollLeft;p.classList.add('ciagnie')});
+ window.addEventListener('mouseup',function(){if(d){d=false;p.classList.remove('ciagnie')}});
+ p.addEventListener('mousemove',function(e){if(!d)return;e.preventDefault();p.scrollLeft=sl-(e.pageX-sx)});
+})();
+</script>
+</body>
+</html>
